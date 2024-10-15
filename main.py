@@ -12,7 +12,7 @@ def check_website_status(url):
         print(f"Website {url} is down. Error: {e}")
 
 if __name__ == "__main__":
-    url = "https://online-shop-4ld6.onrender.com/" 
+    url = "https://example.com/" 
     while True:
         check_website_status(url)
         time.sleep(40)
